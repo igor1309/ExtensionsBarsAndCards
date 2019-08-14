@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A3CB0A82304B2D70037849A /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3CB0A72304B2D70037849A /* String+Extensions.swift */; };
 		2ABFAF9A230411A0006AE602 /* HorizontalBars2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABFAF99230411A0006AE602 /* HorizontalBars2.swift */; };
 		2ABFAF9C230411C0006AE602 /* HorizontalBars3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABFAF9B230411C0006AE602 /* HorizontalBars3.swift */; };
 		2AE40B9D2303FE32006DCA86 /* ExtensionsBarsAndCards.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE40B9B2303FE32006DCA86 /* ExtensionsBarsAndCards.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A3CB0A72304B2D70037849A /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		2ABFAF99230411A0006AE602 /* HorizontalBars2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalBars2.swift; sourceTree = "<group>"; };
 		2ABFAF9B230411C0006AE602 /* HorizontalBars3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalBars3.swift; sourceTree = "<group>"; };
 		2AE40B982303FE32006DCA86 /* ExtensionsBarsAndCards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExtensionsBarsAndCards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +93,7 @@
 				2AE40BA72303FE4E006DCA86 /* Color+Extensions.swift */,
 				2AE40BA62303FE4E006DCA86 /* Date+Extensions.swift */,
 				2AE40BA32303FE4E006DCA86 /* Format+Extensions.swift */,
+				2A3CB0A72304B2D70037849A /* String+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AE40BAE2303FE4E006DCA86 /* Color+Extensions.swift in Sources */,
+				2A3CB0A82304B2D70037849A /* String+Extensions.swift in Sources */,
 				2AE40BAF2303FE4E006DCA86 /* HorizontalBars.swift in Sources */,
 				2ABFAF9A230411A0006AE602 /* HorizontalBars2.swift in Sources */,
 				2AE40BB02303FE4E006DCA86 /* Card.swift in Sources */,
