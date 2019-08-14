@@ -8,12 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		2AE40B9D2303FE32006DCA86 /* ExtensionsBarsAndCards.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE40B9B2303FE32006DCA86 /* ExtensionsBarsAndCards.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AE40BAA2303FE4E006DCA86 /* Format+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE40BA32303FE4E006DCA86 /* Format+Extensions.swift */; };
+		2AE40BAB2303FE4E006DCA86 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE40BA42303FE4E006DCA86 /* Collection+Extension.swift */; };
+		2AE40BAC2303FE4E006DCA86 /* HorizontalBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE40BA52303FE4E006DCA86 /* HorizontalBar.swift */; };
+		2AE40BAD2303FE4E006DCA86 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE40BA62303FE4E006DCA86 /* Date+Extensions.swift */; };
+		2AE40BAE2303FE4E006DCA86 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE40BA72303FE4E006DCA86 /* Color+Extensions.swift */; };
+		2AE40BAF2303FE4E006DCA86 /* HorizontalBars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE40BA82303FE4E006DCA86 /* HorizontalBars.swift */; };
+		2AE40BB02303FE4E006DCA86 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE40BA92303FE4E006DCA86 /* Card.swift */; };
+		2AE40BB5230400C3006DCA86 /* hScrollingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE40BB4230400C3006DCA86 /* hScrollingCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2AE40B982303FE32006DCA86 /* ExtensionsBarsAndCards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExtensionsBarsAndCards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE40B9B2303FE32006DCA86 /* ExtensionsBarsAndCards.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionsBarsAndCards.h; sourceTree = "<group>"; };
 		2AE40B9C2303FE32006DCA86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AE40BA32303FE4E006DCA86 /* Format+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Format+Extensions.swift"; sourceTree = "<group>"; };
+		2AE40BA42303FE4E006DCA86 /* Collection+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
+		2AE40BA52303FE4E006DCA86 /* HorizontalBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalBar.swift; sourceTree = "<group>"; };
+		2AE40BA62303FE4E006DCA86 /* Date+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		2AE40BA72303FE4E006DCA86 /* Color+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		2AE40BA82303FE4E006DCA86 /* HorizontalBars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalBars.swift; sourceTree = "<group>"; };
+		2AE40BA92303FE4E006DCA86 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		2AE40BB4230400C3006DCA86 /* hScrollingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hScrollingCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +62,42 @@
 		2AE40B9A2303FE32006DCA86 /* ExtensionsBarsAndCards */ = {
 			isa = PBXGroup;
 			children = (
+				2AE40BB22303FE72006DCA86 /* Extensions */,
+				2AE40BB32303FE79006DCA86 /* Bars */,
+				2AE40BB12303FE59006DCA86 /* Cards */,
 				2AE40B9B2303FE32006DCA86 /* ExtensionsBarsAndCards.h */,
 				2AE40B9C2303FE32006DCA86 /* Info.plist */,
 			);
 			path = ExtensionsBarsAndCards;
+			sourceTree = "<group>";
+		};
+		2AE40BB12303FE59006DCA86 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				2AE40BA92303FE4E006DCA86 /* Card.swift */,
+				2AE40BB4230400C3006DCA86 /* hScrollingCard.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		2AE40BB22303FE72006DCA86 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2AE40BA42303FE4E006DCA86 /* Collection+Extension.swift */,
+				2AE40BA72303FE4E006DCA86 /* Color+Extensions.swift */,
+				2AE40BA62303FE4E006DCA86 /* Date+Extensions.swift */,
+				2AE40BA32303FE4E006DCA86 /* Format+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2AE40BB32303FE79006DCA86 /* Bars */ = {
+			isa = PBXGroup;
+			children = (
+				2AE40BA52303FE4E006DCA86 /* HorizontalBar.swift */,
+				2AE40BA82303FE4E006DCA86 /* HorizontalBars.swift */,
+			);
+			path = Bars;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +143,7 @@
 				TargetAttributes = {
 					2AE40B972303FE32006DCA86 = {
 						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
 					};
 				};
 			};
@@ -131,6 +180,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AE40BAE2303FE4E006DCA86 /* Color+Extensions.swift in Sources */,
+				2AE40BAF2303FE4E006DCA86 /* HorizontalBars.swift in Sources */,
+				2AE40BB02303FE4E006DCA86 /* Card.swift in Sources */,
+				2AE40BAA2303FE4E006DCA86 /* Format+Extensions.swift in Sources */,
+				2AE40BAD2303FE4E006DCA86 /* Date+Extensions.swift in Sources */,
+				2AE40BAB2303FE4E006DCA86 /* Collection+Extension.swift in Sources */,
+				2AE40BB5230400C3006DCA86 /* hScrollingCard.swift in Sources */,
+				2AE40BAC2303FE4E006DCA86 /* HorizontalBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +317,7 @@
 		2AE40BA12303FE32006DCA86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = VRVJ9YNRQU;
@@ -276,6 +334,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.photoigor.ExtensionsBarsAndCards;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +343,7 @@
 		2AE40BA22303FE32006DCA86 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = VRVJ9YNRQU;
