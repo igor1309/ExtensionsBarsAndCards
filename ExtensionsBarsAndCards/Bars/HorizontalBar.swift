@@ -11,15 +11,21 @@ public struct HorizontalBar: View {
     public var bar: CGFloat
     public var bars: [CGFloat]
     
-    public var height: CGFloat = 9
-    public var cornerRadius: CGFloat = 3
+    public var height: CGFloat
+    public var cornerRadius: CGFloat
     
-    public var colorMore: Color = .systemGreen
-    public var colorLess: Color = .systemYellow
+    public var colorMore: Color
+    public var colorLess: Color
     
-    public var fill: Bool = true
+    public var fill: Bool
     
-    public init(bar: CGFloat, bars: [CGFloat], height: CGFloat, cornerRadius: CGFloat, colorMore: Color, colorLess: Color, fill: Bool) {
+    public init(bar: CGFloat,
+                bars: [CGFloat],
+                height: CGFloat = 9,
+                cornerRadius: CGFloat = 3,
+                colorMore: Color = .systemGreen,
+                colorLess: Color = .systemYellow,
+                fill: Bool = true) {
         self.bar = bar
         self.bars = bars
         
@@ -30,45 +36,6 @@ public struct HorizontalBar: View {
         self.colorLess = colorLess
         
         self.fill = fill
-    }
-    
-    public init(bar: CGFloat, bars: [CGFloat], height: CGFloat, colorLess: Color, fill: Bool) {
-        self.bar = bar
-        self.bars = bars
-        
-        self.height = height
-        self.cornerRadius = 3
-        
-        self.colorMore = .systemGreen
-        self.colorLess = colorLess
-        
-        self.fill = fill
-    }
-    
-    public init(bar: CGFloat, bars: [CGFloat], fill: Bool) {
-        self.bar = bar
-        self.bars = bars
-        
-        self.height = 9
-        self.cornerRadius = 3
-        
-        self.colorMore = .systemGreen
-        self.colorLess = .systemYellow
-        
-        self.fill = fill
-    }
-    
-    public init(bar: CGFloat, bars: [CGFloat]) {
-        self.bar = bar
-        self.bars = bars
-        
-        self.height = 9
-        self.cornerRadius = 3
-        
-        self.colorMore = .systemGreen
-        self.colorLess = .systemYellow
-        
-        self.fill = true
     }
     
     var barsMax: CGFloat {
@@ -118,7 +85,9 @@ public struct HorizontalBar: View {
 #if DEBUG
 struct HorizontalBar_Previews: PreviewProvider {
     static var previews: some View {
+        
         VStack {
+            
             HorizontalBar(bar: 55.0,
                           bars: [30.0, 70])
                 .padding()

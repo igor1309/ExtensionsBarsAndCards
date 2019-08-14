@@ -31,7 +31,7 @@ public struct Card<Content: View>: View {
     public var borderColor: Color = .systemGray
     public var cornerRadius: CGFloat = 16
     
-    public init(title: String, subtitle: String, trunk: Content, borderColor: Color, cornerRadius: CGFloat) {
+    public init(title: String, subtitle: String, trunk: Content, borderColor: Color = .systemGray, cornerRadius: CGFloat = 16) {
         self.title = title
         self.subtitle = subtitle
         self.trunk = trunk
@@ -39,21 +39,21 @@ public struct Card<Content: View>: View {
         self.cornerRadius = cornerRadius
     }
     
-    public init(title: String, subtitle: String, trunk: Content, cornerRadius: CGFloat) {
-        self.title = title
-        self.subtitle = subtitle
-        self.trunk = trunk
-        self.borderColor = .systemGray
-        self.cornerRadius = cornerRadius
-    }
-    
-    public init(title: String, subtitle: String, trunk: Content) {
-        self.title = title
-        self.subtitle = subtitle
-        self.trunk = trunk
-        self.borderColor = .systemGray
-        self.cornerRadius = 16
-    }
+//    public init(title: String, subtitle: String, trunk: Content, cornerRadius: CGFloat) {
+//        self.title = title
+//        self.subtitle = subtitle
+//        self.trunk = trunk
+//        self.borderColor = .systemGray
+//        self.cornerRadius = cornerRadius
+//    }
+//
+//    public init(title: String, subtitle: String, trunk: Content) {
+//        self.title = title
+//        self.subtitle = subtitle
+//        self.trunk = trunk
+//        self.borderColor = .systemGray
+//        self.cornerRadius = 16
+//    }
     
 public var body: some View {
         VStack(alignment: .leading) {

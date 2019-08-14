@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2ABFAF9A230411A0006AE602 /* HorizontalBars2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABFAF99230411A0006AE602 /* HorizontalBars2.swift */; };
+		2ABFAF9C230411C0006AE602 /* HorizontalBars3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABFAF9B230411C0006AE602 /* HorizontalBars3.swift */; };
 		2AE40B9D2303FE32006DCA86 /* ExtensionsBarsAndCards.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE40B9B2303FE32006DCA86 /* ExtensionsBarsAndCards.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2AE40BAA2303FE4E006DCA86 /* Format+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE40BA32303FE4E006DCA86 /* Format+Extensions.swift */; };
 		2AE40BAB2303FE4E006DCA86 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE40BA42303FE4E006DCA86 /* Collection+Extension.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2ABFAF99230411A0006AE602 /* HorizontalBars2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalBars2.swift; sourceTree = "<group>"; };
+		2ABFAF9B230411C0006AE602 /* HorizontalBars3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalBars3.swift; sourceTree = "<group>"; };
 		2AE40B982303FE32006DCA86 /* ExtensionsBarsAndCards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExtensionsBarsAndCards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE40B9B2303FE32006DCA86 /* ExtensionsBarsAndCards.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionsBarsAndCards.h; sourceTree = "<group>"; };
 		2AE40B9C2303FE32006DCA86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 			children = (
 				2AE40BA52303FE4E006DCA86 /* HorizontalBar.swift */,
 				2AE40BA82303FE4E006DCA86 /* HorizontalBars.swift */,
+				2ABFAF99230411A0006AE602 /* HorizontalBars2.swift */,
+				2ABFAF9B230411C0006AE602 /* HorizontalBars3.swift */,
 			);
 			path = Bars;
 			sourceTree = "<group>";
@@ -182,12 +188,14 @@
 			files = (
 				2AE40BAE2303FE4E006DCA86 /* Color+Extensions.swift in Sources */,
 				2AE40BAF2303FE4E006DCA86 /* HorizontalBars.swift in Sources */,
+				2ABFAF9A230411A0006AE602 /* HorizontalBars2.swift in Sources */,
 				2AE40BB02303FE4E006DCA86 /* Card.swift in Sources */,
 				2AE40BAA2303FE4E006DCA86 /* Format+Extensions.swift in Sources */,
 				2AE40BAD2303FE4E006DCA86 /* Date+Extensions.swift in Sources */,
 				2AE40BAB2303FE4E006DCA86 /* Collection+Extension.swift in Sources */,
 				2AE40BB5230400C3006DCA86 /* hScrollingCard.swift in Sources */,
 				2AE40BAC2303FE4E006DCA86 /* HorizontalBar.swift in Sources */,
+				2ABFAF9C230411C0006AE602 /* HorizontalBars3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
