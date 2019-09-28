@@ -31,7 +31,7 @@ public struct IndexedCollection<Base: RandomAccessCollection>: RandomAccessColle
     
     public var startIndex: Index { base.startIndex }
     
-    public var endIndex: Index { base.startIndex }
+    public var endIndex: Index { base.endIndex }
     
     public func index(after i: Index) -> Index {
         base.index(after: i)
